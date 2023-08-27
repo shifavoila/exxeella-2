@@ -55,8 +55,12 @@
         @media (max-width: 400px){
             .category{
                 width: 110vw!important;
-                justify-content: center;
-                
+                justify-content: center;   
+            }
+
+            .logo{
+                width: 100px;
+                height: auto;
             }
         }
 
@@ -76,7 +80,7 @@
         <!--navbar-->
         <nav class=" fixed w-full z-20 top-0 left-0 border-b border-gray-200 " style="background-color: #0E2954;">
             <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-                <a href="./home.html" class="flex items-center bg-white p-2 rounded">
+                <a href="./home.html" class="flex items-center bg-white p-2 rounded logo">
                     <img src="../assets/logo.png" width="150px" height="80px" class="h-8 mr-3" alt="Logo" />
                 </a>
             <div class="flex md:order-2">
@@ -150,7 +154,7 @@
         </section>
 
         <!--categories-->
-        <section class="max-w-screen-xl mx-auto mb-8 category">
+        <section class="max-w-screen-xl mx-auto mt-4 mb-8 category">
             <div class="grid grid-cols-2 md:grid-cols-4 gap-2 md:gap-8 border-4 border-solid border-blue-500">
                 <a href="#"  class="border-2 border-white rounded-full shadow-xl text-center py-4 border-1 border-gray-800">
                     <span class="flex justify-center">
